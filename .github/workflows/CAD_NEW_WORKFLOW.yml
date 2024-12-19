@@ -23,7 +23,7 @@ jobs:
       - name: Deploy to EC2
         run: |
           INSTANCE_ID="i-030e74ad4b5161aa7"
-          PUBLIC_IP=54.80.77.238
+          PUBLIC_IP=184.73.213.163
           SSH_PORT=3003
  
           # Ensure you're using the correct EC2 user
